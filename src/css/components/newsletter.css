@@ -1,0 +1,95 @@
+.newsletter {
+    max-width: 375px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-500);
+}
+
+.newsletter__content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-500);
+    padding: 0 var(--spacing-300) var(--spacing-500);
+}
+
+.newsletter__info {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-300);
+}
+.newsletter__info .newsletter__title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 100%; /* 40px */
+}
+
+.newsletter__info .newsletter__description {
+    line-height: 150%; /* 24px */
+}
+.newsletter__list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-100);
+}
+
+.newsletter__item {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--spacing-200);
+}
+.newsletter__item .newsletter__text {
+    line-height: 150%; /* 24px */
+}
+.newsletter__form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-300);
+}
+
+.newsletter__field {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-100);
+}
+
+.newsletter__field-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsletter__field-header .newsletter__label {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 150%; /* 18px */
+}
+.newsletter__field-header .newsletter__error {
+    color: var(--colors-red, #ff6155);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 150%; /* 18px */
+    display: none;
+}
+.newsletter__field .newsletter__input-email {
+    color: var(--colors-blue-800);
+    font-size: 16px;
+    font-style: normal;
+    line-height: 150%; /* 24px */
+
+    display: flex;
+    height: 56px;
+    padding: var(--spacing-200) var(--spacing-300);
+}
+.newsletter__form.error .newsletter__error {
+    display: block;
+}
+.newsletter__form.error .newsletter__input-email {
+    color: var(--colors-red, #ff6155);
+
+    border-radius: 8px;
+    border: 1px solid var(--colors-red, #ff6155);
+    background: var(--colors-red-100, #ffe7e6);
+}
+
+.newsletter.hidden {
+    display: none;
+}

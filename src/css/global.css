@@ -1,0 +1,21 @@
+body {
+    color: var(--colors-blue-800);
+    font-feature-settings:
+        "liga" off,
+        "clig" off;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

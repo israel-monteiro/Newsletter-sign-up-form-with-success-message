@@ -1,0 +1,41 @@
+.success-card {
+    width: 100%;
+    max-width: 375px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: var(--spacing-500);
+
+    padding: 149px 24px 70px 24px;
+}
+
+.success-card__icon {
+    width: 64px;
+    height: 64px;
+}
+
+.success-card__content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-400);
+}
+
+.success-card__title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 100%; /* 40px */
+}
+
+.success-card__description {
+    line-height: 150%; /* 24px */
+}
+
+.success-card__description .success-card__email {
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.success-card.hidden {
+    display: none;
+}

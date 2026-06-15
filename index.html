@@ -11,7 +11,10 @@
 
         <link rel="stylesheet" href="./src/css/reset.css" />
         <link rel="stylesheet" href="./src/css/variables.css" />
-        <link rel="stylesheet" href="./src/css/style.css" />
+        <link rel="stylesheet" href="./src/css/global.css" />
+        <link rel="stylesheet" href="./src/css/components/newsletter.css" />
+        <link rel="stylesheet" href="./src/css/components/success-card.css" />
+        <link rel="stylesheet" href="./src/css/components/button.css" />
         <link rel="stylesheet" href="./src/css/responsive.css" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -31,53 +34,59 @@
                 </picture>
 
                 <div class="newsletter__content">
-                    <h1 class="newsletter__title">Stay updated!</h1>
+                    <div class="newsletter__info">
+                        <h1 class="newsletter__title">Stay updated!</h1>
 
-                    <p class="newsletter__description">Join 60,000+ product managers receiving monthly updates on:</p>
+                        <p class="newsletter__description">
+                            Join 60,000+ product managers receiving monthly updates on:
+                        </p>
 
-                    <ul class="newsletter__list">
-                        <li class="newsletter__item">
-                            <img class="newsletter__icon" src="./assets/images/icon-list.svg" alt="" />
-                            <span class="newsletter__text">Product discovery and building what matters</span>
-                        </li>
-                        <li class="newsletter__item">
-                            <img class="newsletter__icon" src="./assets/images/icon-list.svg" alt="" />
-                            <span class="newsletter__text"> Measuring to ensure updates are a success</span>
-                        </li>
-                        <li class="newsletter__item">
-                            <img class="newsletter__icon" src="./assets/images/icon-list.svg" alt="" />
-                            <span class="newsletter__text">And much more!</span>
-                        </li>
-                    </ul>
-
+                        <ul class="newsletter__list">
+                            <li class="newsletter__item">
+                                <img class="newsletter__icon" src="./assets/images/icon-list.svg" alt="" />
+                                <span class="newsletter__text">Product discovery and building what matters</span>
+                            </li>
+                            <li class="newsletter__item">
+                                <img class="newsletter__icon" src="./assets/images/icon-list.svg" alt="" />
+                                <span class="newsletter__text"> Measuring to ensure updates are a success</span>
+                            </li>
+                            <li class="newsletter__item">
+                                <img class="newsletter__icon" src="./assets/images/icon-list.svg" alt="" />
+                                <span class="newsletter__text">And much more!</span>
+                            </li>
+                        </ul>
+                    </div>
                     <form action="" class="newsletter__form">
                         <div class="newsletter__field">
                             <div class="newsletter__field-header">
                                 <label for="email" class="newsletter__label">Email address</label>
-                                <span class="newsletter__error hidden"> Valid email required </span>
+                                <span class="newsletter__error"> Valid email required </span>
                             </div>
                             <input
-                                class="newsletter__input-email"
+                                class="newsletter__input-email "
                                 type="email"
                                 id="email"
                                 placeholder="email@company.com"
                             />
                         </div>
-                        <button class="newsletter__button" type="submit">Subscribe to monthly newsletter</button>
+                        <button class="button" type="submit">Subscribe to monthly newsletter</button>
                     </form>
                 </div>
             </section>
 
             <section class="success-card hidden">
-                <img src="./assets/images/icon-success.svg" alt="" class="success-card__icon" />
+                <div class="success-card__content">
+                    <img src="./assets/images/icon-success.svg" alt="" class="success-card__icon" />
 
-                <h1 class="success-card__title">Thanks for subscribing!</h1>
+                    <h1 class="success-card__title">Thanks for subscribing!</h1>
 
-                <p class="success-card__description">
-                    A confirmation email has been sent to <span class="success-card__email">ash@loremcompany.com</span>.
-                    Please open it and click the button inside to confirm your subscription.
-                </p>
-                <button class="success-card__button">Dismiss message</button>
+                    <p class="success-card__description">
+                        A confirmation email has been sent to
+                        <span class="success-card__email">ash@loremcompany.com</span>. Please open it and click the
+                        button inside to confirm your subscription.
+                    </p>
+                </div>
+                <button class="button">Dismiss message</button>
             </section>
         </main>
 
