@@ -8,6 +8,7 @@ A responsive and accessible newsletter subscription form with real-time email va
   - [The challenge](#the-challenge)
   - [Screenshots](#screenshots)
   - [Links](#links)
+- [Features](#features)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -32,16 +33,27 @@ Users should be able to:
 
 ### Screenshots
 
-![Mobile design](./design/mobile-design.jpg)
-![Desktop design](./design/desktop-design.jpg)
-![Desktop erro state](./design/error-states.jpg)
+![Mobile Layout](./design/mobile-design.jpg)
+
+![Desktop Layout](./design/desktop-design.jpg)
+
+![Error state](./design/error-states.jpg)
+
 ![Active states](./design/active-states.jpg)
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/newsletter-sign-up-form-with-success-message-Gg7S6332gO)
 - Live Site URL: [Live Demo](https://israel-monteiro.github.io/Newsletter-sign-up-form-with-success-message/)
 - GitHub Repository: [Repository](https://github.com/israel-monteiro/Newsletter-sign-up-form-with-success-message.git)
+
+## Features
+
+- Email validation using regular expressions
+- Dynamic success message displaying the user's email
+- Responsive layout for mobile and desktop
+- Form error handling with visual feedback
+- Built with TypeScript and semantic HTML
 
 
 ## My process
@@ -114,14 +126,4 @@ In future iterations, I'd like to explore:
 - GitHub: [israel-monteiro](https://github.com/israel-monteiro)
 - Frontend Mentor: [Israel-Monteiro](https://www.frontendmentor.io/profile/Israel-Monteiro)
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
