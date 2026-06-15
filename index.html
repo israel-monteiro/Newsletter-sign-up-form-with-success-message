@@ -60,13 +60,14 @@
                         <div class="newsletter__field">
                             <div class="newsletter__field-header">
                                 <label for="email" class="newsletter__label">Email address</label>
-                                <span class="newsletter__error"> Valid email required </span>
+                                <span  id="email-error" class="newsletter__error"> Valid email required </span>
                             </div>
                             <input
                                 class="newsletter__input-email"
                                 type="email"
                                 id="email"
                                 placeholder="email@company.com"
+                                aria-describedby="email-error"
                                 required
                             />
                         </div>
@@ -75,9 +76,9 @@
                 </div>
             </section>
 
-            <section id="success-card" class="success-card hidden">
+            <section id="success-card" class="success-card hidden" tabindex="-1" role="status">
                 <div class="success-card__content">
-                    <img src="./assets/images/icon-success.svg" alt="" class="success-card__icon" />
+                    <img src="./assets/images/icon-success.svg" alt="Ícone de sucesso" class="success-card__icon" />
 
                     <h1 class="success-card__title">Thanks for subscribing!</h1>
 

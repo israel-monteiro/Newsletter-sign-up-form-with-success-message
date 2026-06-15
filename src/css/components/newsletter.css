@@ -75,7 +75,7 @@
     font-style: normal;
     line-height: 150%; /* 24px */
 
-    display: flex;
+    /* display: flex; */
     height: 56px;
     padding: var(--spacing-200) var(--spacing-300);
 }

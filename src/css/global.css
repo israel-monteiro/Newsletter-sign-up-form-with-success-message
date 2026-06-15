@@ -4,7 +4,7 @@ body {
         "liga" off,
         "clig" off;
 
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: var(--text-base);
     font-style: normal;
     font-weight: 400;
