@@ -19,7 +19,7 @@
     }
 
     .newsletter__info .newsletter__title {
-        font-size: 56px;
+        font-size: var(--text-5xl);
     }
     .newsletter__form {
         gap: var(--spacing-200);
@@ -39,7 +39,7 @@
     }
 
     .success-card__title {
-        font-size: 56px;
+        font-size: var(--text-5xl);
     }
 }
 
@@ -55,7 +55,7 @@
 
     .newsletter__content {
         gap: var(--spacing-400);
-        max-width: 376px;
+        max-width: var(--max-width-sm);
     }
     .newsletter__info {
         gap: var(--spacing-400);

@@ -8,20 +8,25 @@
     --colors-blue-700: hsl(235, 18%, 26%);
     --colors-grey: hsl(0, 0%, 58%);
 
-    --colors-gradient: linear-gradient(90deg, #FF6A3A 0%, #FF527B 100%);
+    --colors-gradient: linear-gradient(90deg, #ff6a3a 0%, #ff527b 100%);
 
-    --spacing-0: 0px;
-    --spacing-50: 4px;
-    --spacing-100: 8px;
-    --spacing-200: 16px;
-    --spacing-300: 24px;
-    --spacing-400: 32px;
-    --spacing-500: 40px;
-    --spacing-600: 48px;
-    --spacing-700: 56px;
-    --spacing-800: 64px;
-    --spacing-1300: 104px;
+    --spacing-0: 0;
+    --spacing-50: 0.25rem; /* 4px */
+    --spacing-100: 0.5rem; /* 8px */
+    --spacing-200: 1rem; /* 16px */
+    --spacing-300: 1.5rem; /* 24px */
+    --spacing-400: 2rem; /* 32px */
+    --spacing-500: 2.5rem; /* 40px */
+    --spacing-600: 3rem; /* 48px */
+    --spacing-700: 3.5rem; /* 56px */
+    --spacing-800: 4rem; /* 64px */
+    --spacing-1300: 6.5rem; /* 104px */
 
-    --max-width-sm: 343px;
-    --max-width-lg: 540px;
+    --max-width-sm: 23.4375rem; /* 375px */
+    --max-width-lg: 33.75rem; /* 540px */
+
+    --text-xs: 0.75rem; /* 12px */
+    --text-base: 1rem; /* 16px */
+    --text-4xl: 2.5rem; /* 40px */
+    --text-5xl: 3.5rem; /* 56px */
 }

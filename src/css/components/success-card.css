@@ -1,6 +1,6 @@
 .success-card {
     width: 100%;
-    max-width: 375px;
+    max-width: var(--max-width-sm);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -22,7 +22,7 @@
 }
 
 .success-card__title {
-    font-size: 40px;
+    font-size: var(--text-4xl);
     font-weight: 700;
     line-height: 100%; /* 40px */
 }

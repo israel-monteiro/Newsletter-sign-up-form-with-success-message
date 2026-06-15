@@ -12,10 +12,10 @@ form?.addEventListener("submit", (e) => {
 
     const email = emailInput?.value.trim() ?? "";
     if (!validateEmail(email)) {
-        form.classList.add("error");
+        form?.classList.add("error");
         return;
     }
-    form.classList.remove("error");
+    form?.classList.remove("error");
     showSuccessCard(email);
 });
 
@@ -24,7 +24,7 @@ function validateEmail(email: string) {
 }
 
 emailInput?.addEventListener("input", () => {
-    form.classList.remove("error");
+    form?.classList.remove("error");
 });
 
 function showSuccessCard(email: string) {

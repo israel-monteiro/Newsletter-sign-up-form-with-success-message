@@ -9,7 +9,7 @@
     background: var(--colors-blue-800);
 
     color: var(--colors-white);
-    font-size: 16px;
+    font-size: var(--text-base);
     font-style: normal;
     font-weight: 700;
     line-height: 150%; /* 24px */
